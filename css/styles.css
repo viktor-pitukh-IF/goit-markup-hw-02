@@ -13,6 +13,30 @@ a {
   text-decoration: none;  
 }
 
+
+/* header */
+.header {
+ background-color: #fff;;
+}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+}
+
+.header-logo span {
+color: #4d5ae5;
+}
+
+
+
+
+
 /*===========Railway From Google Fonts=========*/
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
