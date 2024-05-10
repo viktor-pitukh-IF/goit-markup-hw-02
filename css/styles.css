@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FCFCFC;
+    background-color: #FFF;
 
 }
 
@@ -37,11 +37,11 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .header-logo span {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .header-link {
@@ -54,19 +54,27 @@ a {
 
 .header-addr-link {
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.header-addr-link:hover,
-.header-addr-link:focus {
-    color: #404bbf;
-}
 
 .header-logo:hover,
 .header-logo:focus,
 .header-link:hover,
-.header-link:focus {
-    color: #4D5AE5;
+.header-link:focus,
+.header-addr-link:hover,
+.header-addr-link:focus,
+.header-logo:active {
+    color: #404bbf;
 }
+
+
+.header-address {
+    font-style: normal;
+}
+
+
 
 /*=====================================*/
 
@@ -80,21 +88,24 @@ a {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.00;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
 .hero-button {
-    background-color: #4d5ae5;
     cursor: pointer;
+    background-color: #4d5ae5;
     color: #fff;
     background-color: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .hero-button:hover {
-    background-color: #404bbf;
+    backgrounf-color: #404BBF;
 }
 
 /*=====================================*/
@@ -113,6 +124,7 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -128,7 +140,7 @@ a {
 .team {
     letter-spacing: 0.02em;
     text-align: center;
-    background-color: #fff;
+    background-color: #F4F4FD;
 }
 
 .team-list-title {
@@ -136,6 +148,12 @@ a {
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-list-item {
+    background-color: #FFFFFF
 }
 
 .team-list-text {
@@ -156,6 +174,8 @@ a {
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-item-text {
@@ -178,11 +198,11 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .footer-link span {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .footer-link:hover,
