@@ -13,16 +13,6 @@ a {
     text-decoration: none;
 }
 
-/*============ h2 style ===============*/
-/* .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-} */
-
 /*=====================================*/
 
 /*================ header =============*/
@@ -70,7 +60,7 @@ a {
 }
 
 
-.header-address {
+.header-addr {
     font-style: normal;
 }
 
@@ -106,16 +96,13 @@ a {
 
 .hero-button:hover,
 .hero-button:focus {
-    backgrounf-color: #404BBF;
+    background-color: #404BBF;
 }
 
 /*=====================================*/
 
 /*=============== contents ============*/
 
-.contents {}
-
-.contents-list {}
 
 .contents-list-item {
     letter-spacing: 0.02em;
