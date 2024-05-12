@@ -99,11 +99,11 @@ a {
 /*=============== contents ============*/
 
 
-.contents-list-item {
+.content-list-item {
     letter-spacing: 0.02em;
 }
 
-.contents-list-item-title {
+.content-list-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -111,10 +111,11 @@ a {
     color: #2e2f42;
 }
 
-.contents-list-item-text {
+.content-list-item-text {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 /*=====================================*/
