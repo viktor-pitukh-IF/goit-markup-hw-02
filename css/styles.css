@@ -2,7 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFF;
-
 }
 
 ul {
@@ -42,12 +41,15 @@ a {
     color: #2e2f42;
 }
 
+.header-addr {
+    font-style: normal;
+}
+
 .header-addr-link {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 
 .header-logo:hover,
 .header-logo:focus,
@@ -58,13 +60,6 @@ a {
 .header-logo:active {
     color: #404bbf;
 }
-
-
-.header-addr {
-    font-style: normal;
-}
-
-
 
 /*=====================================*/
 
